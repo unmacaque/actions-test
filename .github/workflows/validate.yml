@@ -6,5 +6,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: dsanders11/json-schema-validate-action@v1.3.0
         with:
-          schema: https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json
+          schema: compose-spec.json
           files: "docker-compose.yml"
